@@ -1,0 +1,63 @@
+.team {
+    text-align: center;
+    height: 80vh;
+    padding: 50px;
+    gap: var(--gap-big);
+    padding-top: 100px;
+    color:  var(--primary-color);
+}
+
+.team_title h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 25.8px;
+    padding-bottom: 50px;
+    color: #1D1C31;
+    letter-spacing: -2%;
+}
+.team_body {
+    gap: var(--gap-big);
+    width: 85%;
+    max-width: 1300px;
+    margin: 0 auto;
+    justify-content: space-between;
+ /* border: 1px solid red; */
+    padding-top: var(--gap-big);
+    /* overflow: hidden; */
+
+}
+
+.team_boxes {
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 10px;
+    /* max-width: 300px; */
+    padding: 20px 0;
+    width: 100px;
+
+}
+
+.team_boxes img {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    border: 2px solid var(--primary-color);
+
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.team_boxes h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+.team_boxes p {
+    width: 240px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.9px;
+    letter-spacing: 0%;
+    color: #1D1C31;
+    opacity: 60%;
+}
