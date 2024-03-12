@@ -56,9 +56,13 @@
 }
 
 .features_boxes img {
-    width: 52px;
-    height: 33px;
+    width: 100px;
+    height: 100px;
     align-self: center;
+    border: 2px solid var(--secondary-color);
+
+    border-radius: 50%;
+    padding: 5px;
 }
 
 .features_boxes h3 {

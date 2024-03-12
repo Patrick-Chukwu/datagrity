@@ -1,5 +1,11 @@
 import React from 'react'
 
+// import snap from '../../assets/snap.png';
+import face from '../../assets/face.jpg';
+import toe from '../../assets/toe.jpeg';
+import finger from '../../assets/hand.jpeg';
+
+
 import './features.css';
 const Features = () => {
   return (
@@ -10,7 +16,7 @@ const Features = () => {
     </div>
     <div className="features_body row">
         <div className="features_boxes column">
-            {/* <img src={hand} alt="" /> */}
+            <img src={finger} alt="" />
             <h3>Finger Detection</h3>
             <p>Access hassle-free finger detection technology at a glance.</p>
             <div className="services_read-more">
@@ -18,7 +24,7 @@ const Features = () => {
             </div>
         </div>
         <div className="features_boxes column">
-            {/* <img src={coin} alt="" /> */}
+            <img src={face} alt="" />
             <h3>Facial recognition </h3>
             <p> Detect unique facial pattern of any human, regardless of age.</p>
             <div className="services_read-more">
@@ -26,7 +32,7 @@ const Features = () => {
             </div>
         </div>
         <div className="features_boxes column">
-            {/* <img src={topup} alt="" /> */}
+            <img src={toe} alt="" />
             <h3>Finger and toe prints</h3>
             <p>Access the uniqueness of finger-printing and toe-printing.</p>
             <div className="services_read-more">
