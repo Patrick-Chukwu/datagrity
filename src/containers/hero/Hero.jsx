@@ -6,7 +6,8 @@ import data from '../../assets/data_capturing.jpeg';
 
 const Hero = () => {
   return (
-    <div className='hero row'>
+    <div className="hero_container">
+      <div className='hero row'>
       <div className="hero_left column">
       <div className="hero_title">
           <h1>Bringing Integrity to National Identity Database Management System</h1>
@@ -25,6 +26,7 @@ const Hero = () => {
       </div>
 
 
+    </div>
     </div>
   )
 }

@@ -18,7 +18,7 @@ const Team = () => {
               <img src={haruna} alt="" />
               <h3>Haruna Abdu</h3>
               <p>Artificial Intelligence lead</p>
-              <div className="read-more">
+              <div className="services_read-more">
                   <a>Read more &#11157;</a>
               </div>
           </div>
@@ -26,7 +26,7 @@ const Team = () => {
               <img src={kemi} alt="" />
               <h3>Oduwole Oluwakemi</h3>
               <p>Presentation lead.</p>
-              <div className="team_read-more">
+              <div className="services_read-more">
                   <a>Read more &#11157;</a>
               </div>
           </div>
@@ -34,7 +34,7 @@ const Team = () => {
               <img src={oketayo} alt="" />
               <h3>Oketayo Abimbola</h3>
               <p>Research lead.</p>
-              <div className="read-more">
+              <div className="services_read-more">
                   <a>Read more &#11157;</a>
               </div>
           </div>
@@ -42,7 +42,7 @@ const Team = () => {
               <img src={morgak} alt="" />
               <h3>Morgak Gotip</h3>
               <p>Cyber Security lead.</p>
-              <div className="read-more">
+              <div className="services_read-more">
                   <a>Read more &#11157;</a>
               </div>
           </div>
@@ -50,7 +50,7 @@ const Team = () => {
               <img src={pat} alt="" />
               <h3>Patrick Chukwu</h3>
               <p>Software Development lead.</p>
-              <div className="read-more">
+              <div className="services_read-more">
                   <a>Read more &#11157;</a>
               </div>
           </div>
@@ -58,7 +58,7 @@ const Team = () => {
               <img src={julius} alt="" />
               <h3>Attah Francis Julius</h3>
               <p>Deep learning lead.</p>
-              <div className="read-more">
+              <div className="services_read-more">
                   <a>Read more &#11157;</a>
               </div>
           </div>

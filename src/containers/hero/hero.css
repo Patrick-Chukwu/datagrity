@@ -1,13 +1,17 @@
+.hero_container {
+    background-color: var(--primary-color);
+}
+
 .hero {
     color: rgb(3,3,3);
     height: 100vh;
     margin: 0 auto;
 
     text-align: center;
-    width: 100%;
+    width: 90%;
     justify-content: space-between;
-    background-color: var(--primary-color);
-    margin-top: 60px;
+
+    padding-top: 60px;
 }
 
 

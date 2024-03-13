@@ -22,17 +22,18 @@ const Button = () => {
                 <a>Read more &#11157;</a>
             </div>
         </div>
+        
         <div className="button_boxes column">
-            <img src={model2} alt="" />
-            <h3>Enhanced Deep Transfer Learning Model</h3>
+            <img src={model3} alt="" />
+            <h3>Facial-Based Model for Twins and Minors</h3>
     
             <div className="services_read-more">
                 <a>Read more &#11157;</a>
             </div>
         </div>
         <div className="button_boxes column">
-            <img src={model3} alt="" />
-            <h3>Facial-Based Model for Twins and Minors</h3>
+            <img src={model2} alt="" />
+            <h3>Enhanced Deep Transfer Learning Model</h3>
     
             <div className="services_read-more">
                 <a>Read more &#11157;</a>
