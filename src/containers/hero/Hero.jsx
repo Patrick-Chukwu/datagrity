@@ -9,12 +9,11 @@ const Hero = () => {
     <div className='hero row'>
       <div className="hero_left column">
       <div className="hero_title">
-          <h1>Enhanced National Identity And Integrity Database Management System 
-</h1>
+          <h1>Bringing Integrity to National Identity Database Management System</h1>
           
         </div>
         <div className="hero_text column"> 
-        <p>We provide an AI Based Enhanced Data Capturing and Verification System To Support National Identity Database Integrity</p>
+        <p>We provide an Artificial Intelligence Based Enhanced Data Capturing and Verification System To Support National Identity Database Integrity</p>
         <button className='button get_started'>Try Demo</button>
         </div>
       </div>

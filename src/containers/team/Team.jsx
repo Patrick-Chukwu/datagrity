@@ -49,7 +49,7 @@ const Team = () => {
           <div className="team_boxes column">
               <img src={pat} alt="" />
               <h3>Patrick Chukwu</h3>
-              <p>Frontend Development lead.</p>
+              <p>Software Development lead.</p>
               <div className="read-more">
                   <a>Read more &#11157;</a>
               </div>

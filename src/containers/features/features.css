@@ -14,6 +14,7 @@
     font-size: 36px;
     font-weight: 500;
     line-height: 25.8px;
+    padding-top: var(--gap-big);
     padding-bottom: var(--gap-big);
     color: #1D1C31;
     letter-spacing: -2%;
@@ -51,8 +52,6 @@
     padding: 30px 20px;
     box-shadow: 0px 5px 10px 0px var(--secondary-color);
     background-color: rgba(46, 204, 113, 0.06);
-
-
 }
 
 .features_boxes img {

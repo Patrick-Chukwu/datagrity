@@ -1,15 +1,16 @@
 .navbar {
-    background-color: transparent;
+    background-color: #fff;
     display: flex;
     padding: 0 3em;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    /* position: absolute;
-    top: 0; */
+    position: fixed;
+    top: 0;
     font-weight: 500;
     font-size: 18px;
-    color: #3C3C3C;
+    color: #000;
+    z-index: 10;
 
 
 }

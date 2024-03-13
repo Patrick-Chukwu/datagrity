@@ -1,13 +1,15 @@
 import React from 'react';
 
-import logo from '../../assets/datagrity-logo.svg';
+import './footer.css';
+
+import logo from '../../assets/datagrity.svg';
 
 const Footer = () => {
   return (
-    <div className='navbar'>
-    <a href="#" className="logo"><img src={logo} alt="Datagrity logo" className='logo'/></a>
+    <div className='footer_bar row'>
+    <a href="#" className="logo"><img src={logo} alt="Datagrity logo" className='footer_logo'/></a>
     <nav >
-    <ul className='nav_menu row'>
+    <ul className='footer_menu row'>
           <li><a href="#">Terms of Service</a></li>
           <li><a href="#">Privacy Policy</a></li>
           <li><a href="#">About Us</a></li>

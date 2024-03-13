@@ -13,13 +13,14 @@ const Faq = ({ faqs }) => {
   };
 
   return (
-    <div className="faq">
+    <div className="faq column">
         <div className="faq_title">
-            <h2>FAQ</h2>
+            <h2>Frequently Asked Questions</h2>
         </div>
-      {faqs.map((faq) => (
-        <div className="faq-item" key={faq.id}>
-          <div className="question">
+        <div className="faq-body">
+        {faqs.map((faq) => (
+        <div className="column faq-item row" key={faq.id}>
+          <div className="question row">
             <button
               className="toggle-button"
               onClick={() => toggleAnswer(faq.id)}
@@ -35,6 +36,8 @@ const Faq = ({ faqs }) => {
           )}
         </div>
       ))}
+        </div>
+      
     </div>
   );
 };
