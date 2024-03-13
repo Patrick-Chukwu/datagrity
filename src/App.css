@@ -66,3 +66,9 @@ button {
   background-color: transparent;
 }
 
+
+.login:hover {
+  color: #fff;
+  background-color: var(--secondary-color);
+
+}

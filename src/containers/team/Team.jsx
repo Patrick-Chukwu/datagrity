@@ -23,6 +23,14 @@ const Team = () => {
               </div>
           </div>
           <div className="team_boxes column">
+              <img src={pat} alt="" />
+              <h3>Patrick Chukwu</h3>
+              <p>Software Development lead.</p>
+              <div className="services_read-more">
+                  <a>Read more &#11157;</a>
+              </div>
+          </div>
+          <div className="team_boxes column">
               <img src={kemi} alt="" />
               <h3>Oduwole Oluwakemi</h3>
               <p>Presentation lead.</p>
@@ -46,14 +54,7 @@ const Team = () => {
                   <a>Read more &#11157;</a>
               </div>
           </div>
-          <div className="team_boxes column">
-              <img src={pat} alt="" />
-              <h3>Patrick Chukwu</h3>
-              <p>Software Development lead.</p>
-              <div className="services_read-more">
-                  <a>Read more &#11157;</a>
-              </div>
-          </div>
+
           <div className="team_boxes column">
               <img src={julius} alt="" />
               <h3>Attah Francis Julius</h3>

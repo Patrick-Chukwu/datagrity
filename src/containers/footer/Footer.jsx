@@ -2,7 +2,7 @@ import React from 'react';
 
 import './footer.css';
 
-import logo from '../../assets/datagrity.svg';
+import logo from '../../assets/Datagrity.svg';
 
 const Footer = () => {
   return (
@@ -16,7 +16,7 @@ const Footer = () => {
         </ul>
     </nav>
     <div className="nav_button">
-    <button type='submit' className='login'>Login</button>
+    <button type='submit' className='login footer_login '>Login</button>
     <button type='submit' className='button'>Open account</button>
 
     </div>
