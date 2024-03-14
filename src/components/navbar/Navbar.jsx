@@ -5,8 +5,8 @@ import logo from '../../assets/datagrity_logo.svg';
 
 const Navbar = () => {
   return (
-    <div className='navbar'>
-      <a href="#" className="logo"><img src={logo} alt="Datagrity logo" className='logo'/></a>
+    <div className='navbar row'>
+      <a href="#"><img src={logo} alt="Datagrity logo" className='logo'/></a>
       <nav >
         <ul className='nav_menu'>
         <li><a href="#">About</a></li>

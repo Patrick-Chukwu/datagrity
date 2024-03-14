@@ -49,3 +49,27 @@
     display: flex;
     gap: var(--gap-big);
 }
+
+/* Mobile screen */
+@media only screen and (max-width: 400px) {
+    .navbar {
+        display: block;
+        /* justify-content: center;
+        align-items: flex-start; */
+        border: 1px solid red;
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+
+    }
+    .nav_button, .nav_menu {
+        display: none;
+    }
+
+    .logo {
+        width: 150px;
+        height: 80px;
+    }
+  }
+  

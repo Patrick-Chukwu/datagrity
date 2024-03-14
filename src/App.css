@@ -72,3 +72,18 @@ button {
   background-color: var(--secondary-color);
 
 }
+
+/* Mobile screen */
+@media only screen and (max-width: 400px) {
+
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E; /* Yellow */
+  }
+}
