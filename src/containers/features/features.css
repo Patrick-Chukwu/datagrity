@@ -23,7 +23,7 @@
 
 .features_title  p {
 
-    /* max-width: 383px; */
+    max-width: 60%;
     /* padding-bottom: var(--gap-big); */
     color: var(--primary-color);
     /* opacity: 70%; */
