@@ -27,12 +27,13 @@
 
     max-width: 60%;
     /* padding-bottom: var(--gap-big); */
-    color: var(--primary-color);
+    color: var(--secondary-color);
     /* opacity: 70%; */
 
     font-size: 24px;
     line-height: 30px;
     font-weight: 400;
+    margin: 0 auto;
 }
 
 .button_body {
