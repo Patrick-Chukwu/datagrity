@@ -51,11 +51,14 @@
 }
 
 /* Mobile screen */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
+
+    body {
+        overflow: hidden;
+    }
     .navbar {
         display: block;
-        /* justify-content: center;
-        align-items: flex-start; */
+
         border: 1px solid red;
         width: 100vw;
         position: fixed;
@@ -63,13 +66,18 @@
         left: 0;
 
     }
-    .nav_button, .nav_menu {
+    .nav_button, .nav_menu > li {
         display: none;
     }
 
     .logo {
         width: 150px;
         height: 80px;
+    }
+
+    h1 {
+        width: 80%;
+
     }
   }
   

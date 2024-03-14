@@ -3,7 +3,6 @@
     height: 100vh;
     padding: 50px;
     gap: var(--gap-big);
-    /* border: 1px solid rgb(236, 165, 165); */
     padding-top: 100px;
 }
 
@@ -24,10 +23,7 @@
 .features_title  p {
 
     max-width: 60%;
-    /* padding-bottom: var(--gap-big); */
     color: var(--primary-color);
-    /* opacity: 70%; */
-
     font-size: 24px;
     line-height: 30px;
     font-weight: 400;
@@ -40,7 +36,7 @@
     max-width: 90%;
     margin: 0 auto;
     padding-top: var(--gap-big);
-    /* border: 2px  solid rgb(13, 190, 13); */
+
     justify-content: center;
 
 }

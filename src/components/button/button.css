@@ -3,7 +3,6 @@
     height: 100vh;
     padding: 50px;
     gap: var(--gap-big);
-    /* border: 1px solid rgb(236, 165, 165); */
     padding-top: 100px;
     background-color: var(--primary-color);
 }
@@ -26,9 +25,7 @@
 .button_title  p {
 
     max-width: 60%;
-    /* padding-bottom: var(--gap-big); */
     color: var(--secondary-color);
-    /* opacity: 70%; */
 
     font-size: 24px;
     line-height: 30px;
@@ -41,8 +38,6 @@
     width: 85%;
     max-width: 90%;
     margin: 0 auto;
-    /* padding-top: var(--gap-big); */
-    /* border: 2px  solid rgb(13, 190, 13); */
     justify-content: center;
 
 }
@@ -56,15 +51,14 @@
     padding: 0 20px;
     box-shadow: 0px 5px 10px 0px var(--secondary-color);
     background-color: rgba(46, 204, 113, 0.06);
+    border-radius: 10px;
 }
 
 .button_boxes img {
     width: 400px;
     height: 250px;
     align-self: center;
-    /* border: 2px solid var(--secondary-color); */
 
-    /* border-radius: 50px; */
     padding: 5px;
 }
 
@@ -72,12 +66,9 @@
     font-size: 16px;
     font-weight: 500;
 }
-/* .button_boxes p {
-    width: 208px;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 13.9px;
-    letter-spacing: 0%;
-    color: #1D1C31;
-    opacity: 60%;
-} */
+
+
+.button_boxes > .services_read-more {
+    margin-bottom: 10px;
+
+}
