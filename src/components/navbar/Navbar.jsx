@@ -9,12 +9,12 @@ const Navbar = () => {
       <a href="#"><img src={logo} alt="Datagrity logo" className='logo'/></a>
       <nav >
         <ul className='nav_menu'>
-        <li><a href="#">About</a></li>
+        <li><a href="https://docs.google.com/document/d/1Qdqcr9EtMW5arg_7CTPic0EiIMcYqK2SF1OHkFB_Lzc/edit?usp=sharing" target="blank">About</a></li>
 
           <li><a href="#features">Features</a></li>
           <li><a href="#models">Models</a></li>
           <li><a href="#team">Team</a></li>
-          <li><a href="https://docs.google.com/document/d/1FQwz4j5apiFmDu8GiTsWPUbnngTYpIPAnn0k3Rh8Rxw/edit?usp=sharing" target='blank'>Blog</a></li>
+          <li><a href="https://docs.google.com/presentation/d/1_eIeuRUzuteLY7m-3v3BnCIXUQRCdF5AlYJit4ynPZo/edit?usp=sharing" target='blank'>Presentation</a></li>
         </ul>
       </nav>
       <div className="nav_button">

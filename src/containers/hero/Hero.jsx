@@ -1,8 +1,8 @@
 import React from 'react';
 import './hero.css';
 
-import data from '../../assets/data_capturing.jpeg';
-// import connected from '../../assets/connected.svg';
+import capture from '../../assets/illustration.svg';
+
 
 const Hero = () => {
   return (
@@ -20,7 +20,7 @@ const Hero = () => {
       </div>
   
         <div className="column hero_right">
-      <img src={data} alt="data_capturing" className='data_capturing ' />
+      <img src={capture} alt="data_capturing" className='data_capturing ' />
 
        
       </div>

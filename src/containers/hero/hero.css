@@ -1,5 +1,7 @@
 .hero_container {
     background-color: var(--primary-color);
+
+
 }
 
 .hero {
@@ -78,7 +80,10 @@
 
 .data_capturing {
     width: 500px;
-    height: 300px;
+    height: 500px;
+    padding-top: 60px;
+    /* border: 1px solid #fff; */
+    /* background-color: #fff; */
 }
 
 /* Mobile screen */

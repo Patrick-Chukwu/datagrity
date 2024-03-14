@@ -12,10 +12,9 @@ body {
 :root {
 
   --gradient-text: var(--font-family);
-
   --primary-color: #4a95cf;
   --secondary-color: #6ce5e8;
-
+  
   --gap-small: 5px;
   --gap-big: 15px;
 }

@@ -1,9 +1,9 @@
 import React from 'react'
 
 // import snap from '../../assets/snap.png';
-import face from '../../assets/face.jpg';
-import toe from '../../assets/toe.jpeg';
-import finger from '../../assets/hand.jpeg';
+import face from '../../assets/face.png';
+import toe from '../../assets/toe.png';
+import finger from '../../assets/hand.png';
 
 
 import './features.css';
