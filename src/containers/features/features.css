@@ -32,6 +32,7 @@
     line-height: 30px;
     font-weight: 400;
     margin: 0 auto;
+    text-align: center;
 }
 .features_body {
     gap: 30px;
@@ -74,6 +75,6 @@
     font-weight: 400;
     line-height: 13.9px;
     letter-spacing: 0%;
-    color: #1D1C31;
-    opacity: 60%;
+    color: var(--primary-color);
+   
 }
