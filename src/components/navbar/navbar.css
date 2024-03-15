@@ -3,9 +3,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
+
     font-weight: 500;
     font-size: 18px;
     color: #000;
@@ -95,6 +93,8 @@
 
     .navbar {
       padding: 0 3em;
-
+      position: fixed;
+      top: 0;
+      left: 0;
     }
   }
