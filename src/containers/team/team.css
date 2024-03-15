@@ -67,3 +67,11 @@
     letter-spacing: 0%;
     color: #000;
 }
+
+@media only screen and (max-width: 500px) {
+/* 
+    .row {
+      flex-direction: column;
+    } */
+  }
+  

@@ -1,6 +1,5 @@
 .button_page {
     text-align: center;
-    height: 100vh;
     padding: 50px;
     gap: var(--gap-big);
     padding-top: 100px;
@@ -24,7 +23,9 @@
 
 .button_title  p {
 
-    max-width: 60%;
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
     color: var(--secondary-color);
 
     font-size: 24px;
@@ -54,13 +55,7 @@
     border-radius: 10px;
 }
 
-.button_boxes img {
-    width: 400px;
-    height: 250px;
-    align-self: center;
 
-    padding: 5px;
-}
 
 .button_boxes h3 {
     font-size: 16px;
@@ -72,3 +67,44 @@
     margin-bottom: 10px;
 
 }
+
+@media only screen and (max-width: 479px) {
+    .button_page {
+    padding: 20px 5px;
+    
+    }
+    .button_body {
+        flex-direction: column;
+    
+    
+    }
+    
+    .button_boxes img {
+        width: 110%;
+        max-width: 350px;
+        height: 250px;
+        align-self: center;
+        padding: 5px;
+    }
+    
+    }
+    
+    @media only screen and (min-width: 480px ) and ( max-width:960px) {
+    
+    } 
+    
+    @media only screen and (min-width: 961px){
+        .button_page {
+            padding: 50px;
+            height: 100vh;
+            padding-top: 100px;
+    
+    
+        }
+        .button_boxes img {
+            width: 400px;
+            height: 250px;
+            align-self: center;
+            padding: 5px;
+        }
+    }

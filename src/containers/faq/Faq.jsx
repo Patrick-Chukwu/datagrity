@@ -19,7 +19,7 @@ const Faq = ({ faqs }) => {
         </div>
         <div className="faq-body">
         {faqs.map((faq) => (
-        <div className="column faq-item row" key={faq.id}>
+        <div className="column faq-item" key={faq.id}>
           <div className="question row">
             <button
               className="toggle-button"
