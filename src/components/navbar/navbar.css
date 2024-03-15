@@ -2,12 +2,10 @@
     background-color: #fff;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
 
     font-weight: 500;
     font-size: 18px;
     color: #000;
-    z-index: 2;
 
 
 }
@@ -96,5 +94,8 @@
       position: fixed;
       top: 0;
       left: 0;
+      width: 100%;
+      z-index: 2;
+  
     }
   }

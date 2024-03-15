@@ -18,7 +18,6 @@
     justify-content: center;
     /* width: 60%; */
     margin: auto auto;
-    border: 1px solid red;
 }
 
 .faq-body {
@@ -55,6 +54,7 @@
 @media only screen and (max-width: 479px) {
     .faq {
     padding: 20px 5px;
+    border: 1px solid var(--secondary-color);
     
     }
     .button_body {
@@ -72,10 +72,16 @@
     }
 
     .faq-body {
-        width: 80%;
+        width: 90%;
+
     }
     
+    .faq-body .question {
+        font-size: 18px;
+        font-weight: 300;
     }
+    
+}
     
     @media only screen and (min-width: 480px ) and ( max-width:960px) {
     
