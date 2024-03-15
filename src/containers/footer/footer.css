@@ -45,11 +45,11 @@
 
     }
 
-    .footer_menu  {
+    .footer_menu li {
       display: none;
     }
 
-    .nav_button {
+    .footer_login button {
       display: none;
     }
 
