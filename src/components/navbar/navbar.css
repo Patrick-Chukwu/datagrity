@@ -60,11 +60,11 @@
       flex-direction: column;
       padding: 0;
       width: 100%;
-      max-width: 470px;
+ 
       justify-content: center;
       align-items: flex-start;
       height: fit-content;
-
+      border: 1px solid var(--secondary-color);
 
 
     }
