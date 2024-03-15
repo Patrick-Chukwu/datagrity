@@ -1,6 +1,5 @@
 .team {
     text-align: center;
-    height: 80vh;
     padding: 50px;
     gap: var(--gap-big);
     padding-top: 100px;
@@ -68,10 +67,37 @@
     color: #000;
 }
 
-@media only screen and (max-width: 500px) {
-/* 
-    .row {
-      flex-direction: column;
-    } */
-  }
+@media only screen and (max-width: 479px) {
+    .team {
+    padding: 20px 5px;
+    
+    }
+    .team_body {
+        flex-direction: column;
+      
+    
+    
+    }
+    
+    .team_boxes {
+        width: 80%;
+        max-width: 400px;
+    }
+    
+    
+    }
+    
+    @media only screen and (min-width: 480px ) and ( max-width:960px) {
+    
+    } 
+    
+    @media only screen and (min-width: 961px){
+        .team {
+            padding: 50px;
+            height: 100vh;
+            padding-top: 100px;
+    
+    
+        }
+    }
   

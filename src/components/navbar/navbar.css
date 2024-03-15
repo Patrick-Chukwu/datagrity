@@ -53,9 +53,7 @@
   
   /* Mobile Styles */
   @media only screen and (max-width: 479px) {
-    body {
-      border: 5px solid green;
-    }
+
 
 
     .navbar {
