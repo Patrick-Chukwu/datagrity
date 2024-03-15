@@ -49,7 +49,7 @@
       display: none;
     }
 
-    .footer_login button {
+    .footer_login, login button {
       display: none;
     }
 
