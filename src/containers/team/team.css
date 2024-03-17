@@ -74,6 +74,9 @@
     }
     .team_body {
         flex-direction: column;
+        align-content: flex-end;
+        justify-content: space-evenly;
+        
       
     
     
@@ -82,6 +85,7 @@
     .team_boxes {
         width: 80%;
         max-width: 400px;
+        margin: 0 auto;
     }
     
     

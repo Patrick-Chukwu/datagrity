@@ -1,9 +1,15 @@
-import React from 'react';
+import React,{ useState} from 'react';
 import './navbar.css';
 
 import logo from '../../assets/datagrity_logo.svg';
 
+
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <div className='navbar row'>
       <a href="#"><img src={logo} alt="Datagrity logo" className='logo'/></a>
@@ -22,6 +28,30 @@ const Navbar = () => {
       <button type='submit' className='button'>Open account</button>
 
       </div>
+
+      <button className={isOpen ? 'hamburger open' : 'hamburger' } onClick={toggleMenu}>
+
+        {
+          isOpen ? <div>&times;</div> :
+          <div  className='barparent'>
+            <span className="bar"></span>
+            <span className="bar"></span>
+            <span className="bar"></span>
+          </div>
+        }
+      </button>
+
+      <ul className={isOpen ? 'nav-menu active' : 'nav-menu'}>
+          <li className="nav-item">
+            <a href="#about" className="nav-link" onClick={toggleMenu}>About</a>
+          </li>
+          <li className="nav-item">
+            <a href="#contact" className="nav-link" onClick={toggleMenu}>Contact</a>
+          </li>
+          <li className="nav-item">
+            <a href="#register" className="nav-link" onClick={toggleMenu}>Register</a>
+          </li>
+        </ul>
  
     </div>
   )

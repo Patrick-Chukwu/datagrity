@@ -13,7 +13,7 @@ const Team = () => {
   return (
     <div className="team column" id='team'>
     <div className="team_title column"><h2>Our Team</h2></div>
-  <div className="team_body row">
+  <div className="team_body row" id='team_body'>
   <div className="team_boxes column">
               <img src={haruna} alt="" />
               <h3>Haruna Abdu</h3>

@@ -49,17 +49,21 @@
   
   /* Mobile Styles */
   @media only screen and (max-width: 479px) {
-
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
 
     .navbar {
-      flex-direction: column;
-      padding: 0;
+      flex-direction: row;
+      padding: 0 20px;
       width: 100%;
  
-      justify-content: center;
-      align-items: flex-start;
-      height: fit-content;
+      justify-content: space-between;
+      align-items: center;
+      /* height: fit-content; */
       border: 1px solid var(--secondary-color);
 
 
@@ -75,6 +79,81 @@
 
     .logo {
       align-self: flex-start;
+    }
+
+    /* hamburger for mobile view */
+    .hamburger {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 30px;
+      height: 20px;
+      cursor: pointer;
+      background-color: #000;
+      border: 1px solid red;
+      padding: 0;
+      z-index: 1000;
+      
+    }
+    
+    .active {
+border: 2px solid red;  
+  }
+
+  .barparent {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    justify-content: space-between;
+  }
+    .bar {
+      width: 100%;
+      min-width: 20px;
+      height: 1px;      transition: all 0.3s ease;
+      border: 2px solid blue;
+    }
+    
+    .hamburger.open .bar:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+
+
+    
+    .hamburger.open .bar:nth-child(2) {
+      opacity: 0;
+    }
+    
+    .hamburger.open .bar:nth-child(3) {
+      transform: rotate(-45deg) translate(5px, -5px);
+    }
+    
+    .nav-menu {
+      display: none;
+      flex-direction: column;
+      list-style-type: none;
+      padding: 10px 20% 10px 10px;
+      margin: 0;
+    }
+    
+    .nav-menu.active {
+      display: flex;
+      margin-right: 10px;
+
+    }
+    
+    .nav-item {
+      margin-bottom: 10px;
+    }
+    
+    .nav-link {
+      color: #000;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    
+    .nav-link:hover {
+      color: #ccc;
     }
   }
   
@@ -97,5 +176,9 @@
       width: 100%;
       z-index: 2;
   
+    }
+
+    .nav-menu, .hamburger {
+      display: none;
     }
   }

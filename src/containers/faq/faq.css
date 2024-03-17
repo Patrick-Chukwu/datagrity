@@ -59,7 +59,8 @@
     }
     .button_body {
         flex-direction: column;
-    
+        justify-content: space-between; 
+        align-items: center; 
     
     }
     
@@ -75,12 +76,16 @@
         width: 90%;
 
     }
-    
+
+   
     .faq-body .question {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 300;
+        padding: 5px;
     }
-    
+   .question.row {
+
+   } 
 }
     
     @media only screen and (min-width: 480px ) and ( max-width:960px) {
