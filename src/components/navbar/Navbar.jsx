@@ -32,7 +32,7 @@ const Navbar = () => {
       <button className={isOpen ? 'hamburger open' : 'hamburger' } onClick={toggleMenu}>
 
         {
-          isOpen ? <div>&times;</div> :
+          isOpen ? <div className='times'>&times;</div> :
           <div  className='barparent'>
             <span className="bar"></span>
             <span className="bar"></span>
@@ -43,13 +43,19 @@ const Navbar = () => {
 
       <ul className={isOpen ? 'nav-menu active' : 'nav-menu'}>
           <li className="nav-item">
-            <a href="#about" className="nav-link" onClick={toggleMenu}>About</a>
+            <a href="https://docs.google.com/document/d/1Qdqcr9EtMW5arg_7CTPic0EiIMcYqK2SF1OHkFB_Lzc/edit?usp=sharing" className="nav-link" onClick={toggleMenu}>About</a>
           </li>
           <li className="nav-item">
-            <a href="#contact" className="nav-link" onClick={toggleMenu}>Contact</a>
+            <a href="#features" className="nav-link" onClick={toggleMenu}>Features</a>
           </li>
           <li className="nav-item">
-            <a href="#register" className="nav-link" onClick={toggleMenu}>Register</a>
+            <a href="#models" className="nav-link" onClick={toggleMenu}>Models</a>
+          </li>
+          <li className="nav-item">
+            <a href="#team" className="nav-link" onClick={toggleMenu}>Team</a>
+          </li>
+          <li className="nav-item">
+            <a href="https://docs.google.com/presentation/d/1_eIeuRUzuteLY7m-3v3BnCIXUQRCdF5AlYJit4ynPZo/edit?usp=sharing" className="nav-link" onClick={toggleMenu}>Presentation</a>
           </li>
         </ul>
  

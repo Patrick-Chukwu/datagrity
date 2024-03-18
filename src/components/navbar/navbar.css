@@ -49,11 +49,11 @@
   
   /* Mobile Styles */
   @media only screen and (max-width: 479px) {
-    * {
+    /* * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-    }
+    } */
 
 
     .navbar {
@@ -64,7 +64,7 @@
       justify-content: space-between;
       align-items: center;
       /* height: fit-content; */
-      border: 1px solid var(--secondary-color);
+      /* border: 1px solid var(--secondary-color); */
 
 
     }
@@ -89,29 +89,47 @@
       width: 30px;
       height: 20px;
       cursor: pointer;
-      background-color: #000;
-      border: 1px solid red;
+      /* background-color: #000; */
+      /* border: 1px solid red; */
       padding: 0;
       z-index: 1000;
       
     }
     
     .active {
-border: 2px solid red;  
-  }
+
+position: relative;
+right: 80px;
+top: 80px;
+
+}
+
+.times {
+color: var(--primary-color);
+font-size: 35px;
+background-color: var(--secondary-color);
+padding: 5px 10px;
+border-radius: 10px;
+}
+
+.times:visited {
+  position: relative;
+  top: -100px;
+  left: 0;
+}
+
 
   .barparent {
     display: flex;
     flex-direction: column;
     gap: 5px;
-
     justify-content: space-between;
   }
-    .bar {
+  .bar {
       width: 100%;
-      min-width: 20px;
+      min-width: 25px;
       height: 1px;      transition: all 0.3s ease;
-      border: 2px solid blue;
+      border: 1.5px solid var(--primary-color);
     }
     
     .hamburger.open .bar:nth-child(1) {
@@ -132,13 +150,21 @@ border: 2px solid red;
       display: none;
       flex-direction: column;
       list-style-type: none;
-      padding: 10px 20% 10px 10px;
+      padding: 10px 20px 10px 10px;
       margin: 0;
+
     }
     
-    .nav-menu.active {
-      display: flex;
+    .nav-menu.active {      
       margin-right: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      gap: var(--gap-big);
+      padding: 0 30px;
+      background-color: var(--secondary-color);
+  
 
     }
     
@@ -147,7 +173,8 @@ border: 2px solid red;
     }
     
     .nav-link {
-      color: #000;
+      color: var(--primary-color);
+      /* border: 1px solid red; */
       text-decoration: none;
       transition: color 0.3s ease;
     }
@@ -160,7 +187,7 @@ border: 2px solid red;
   /* Tablet Styles */
   @media only screen and (min-width: 480px) and (max-width: 960px) {
     body {
-      border: 5px solid blue;
+      /* border: 5px solid blue; */
     }
   }
   
