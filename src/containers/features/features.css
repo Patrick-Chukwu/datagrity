@@ -73,9 +73,11 @@
    
 }
 
+/* Mobile screen */
 @media only screen and (max-width: 479px) {
 .features {
 padding: 20px 5px;
+
 
 }
 .features_body {
