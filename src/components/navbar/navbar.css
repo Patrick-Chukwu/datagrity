@@ -131,7 +131,7 @@ z-index: 5;
       min-width: 25px;
       height: 1px;      
       transition: all 0.3s ease;
-      /* border: 1.5px solid var(--primary-color); */
+      border: 1.5px solid var(--primary-color);
     }
     
     .hamburger.open .bar:nth-child(1) {
@@ -240,9 +240,7 @@ z-index: 5;
   
   /* Tablet Styles */
   @media only screen and (min-width: 480px) and (max-width: 960px) {
-    body {
-      /* border: 5px solid blue; */
-    }
+
   }
   
   /* Desktop Styles */
